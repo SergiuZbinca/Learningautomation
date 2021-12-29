@@ -1,9 +1,9 @@
 # """
 # homework_1
 # """
-
+#
 # exercitiul_1_Afisare in consola parola este:*****
-
+#
 # expected_usr = 'Admin'
 # expected_pwd = 'abcd1234'
 # sold = 10000
@@ -12,18 +12,21 @@
 # assert user_name == expected_usr
 # pwd = input('Introduceti parola: ')
 # assert pwd == expected_pwd
+#
 # pwd_lenght = len(pwd)
 # hidden_pwd = '*' * pwd_lenght
+#
 # print(f'User name-ul dvs este: {user_name}, and your password is: {hidden_pwd}')
+#
 # input('Press enter to log in: ')
 # print(f'Your sold is: {sold}')
 # cash_out = int(input('Enter a value: '))
 # print(f'The remaining sold is: {sold - cash_out} ')
-
+#
 # ************************************************************************
-
+#
 # exercitiul_2_calculator
-
+#
 # a = float(input('Enter a value for a: '))
 # b = float(input('Enter a value for b: '))
 #
@@ -45,5 +48,5 @@
 #     print(f'The value of a*b is: {multiply(a,b)}')
 # elif choice == '4':
 #     print(f'The value of a/b is: {divide(a,b)}')
-
+#
 # ****************************************************************************************************************
